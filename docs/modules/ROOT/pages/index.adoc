@@ -1,0 +1,22 @@
+= Quarkus - JDBC Sqlite
+:extension-status: preview
+
+JDBC Sqlite is a Quarkus extention for https://www.sqlite.org/index.html[Sqlite database].
+
+== Installation
+
+If you want to use this extension, you need to add the `io.quarkiverse.jdbc:quarkus-jdbc-sqlite` extension first.
+In your `pom.xml` file, add:
+
+[source,xml]
+----
+<dependency>
+    <groupId>io.quarkiverse.jdbc</groupId>
+    <artifactId>quarkus-jdbc-sqlite</artifactId>
+</dependency>
+----
+
+[[extension-configuration-reference]]
+== Extension Configuration Reference
+
+include::config.adoc[leveloffset=+1, opts=optional]

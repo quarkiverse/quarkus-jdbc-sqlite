@@ -16,7 +16,7 @@ env:
   # Repo specific setting #
   #########################
 
-  ECOSYSTEM_CI_REPO_PATH: quarkus-JDBC-Sqlite
+  ECOSYSTEM_CI_REPO_PATH: quarkus-jdbc-sqlite
 
 jobs:
   build:

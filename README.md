@@ -14,3 +14,4 @@ JDBC Sqlite is a Quarkus extension to Sqlite Embedded database
 ## User Doc
 
 https://quarkiverse.github.io/quarkiverse-docs/quarkus-JDBC-Sqlite/dev/index.html
+

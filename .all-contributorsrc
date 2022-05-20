@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "alexeysharandin",
+      "name": "Alexey Sharandin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41162858?v=4",
+      "profile": "https://www.linkedin.com/in/sharandin/",
+      "contributions": [
+        "code",
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "quarkus-jdbc-sqlite",
+  "projectOwner": "quarkiverse",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

@@ -9,3 +9,4 @@ metadata:
   categories:
     - "data"
   status: "preview"
+  description: "Connect to the Sqlite database via JDBC"

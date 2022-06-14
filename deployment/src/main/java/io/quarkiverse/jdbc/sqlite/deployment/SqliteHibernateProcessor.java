@@ -4,15 +4,13 @@ import org.sqlite.SQLiteDataSource;
 
 import io.quarkus.deployment.annotations.BuildProducer;
 import io.quarkus.deployment.annotations.BuildStep;
-import io.quarkus.deployment.annotations.ExecutionTime;
-import io.quarkus.deployment.annotations.Record;
 import io.quarkus.hibernate.orm.deployment.spi.DatabaseKindDialectBuildItem;
 
 //https://github.com/gwenn/sqlite-dialect/
 public class SqliteHibernateProcessor {
 
     @BuildStep
-    @Record(ExecutionTime.STATIC_INIT)
+    //@Record(ExecutionTime.STATIC_INIT)
     void processHibernate(
             BuildProducer<DatabaseKindDialectBuildItem> producer) {
         producer.produce(new DatabaseKindDialectBuildItem("sqlite", SQLiteDataSource.class.getName()));

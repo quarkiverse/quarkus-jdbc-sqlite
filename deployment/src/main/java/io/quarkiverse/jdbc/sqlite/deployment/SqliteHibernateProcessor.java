@@ -15,7 +15,7 @@ public class SqliteHibernateProcessor {
     @Record(ExecutionTime.STATIC_INIT)
     void processHibernate(
             BuildProducer<DatabaseKindDialectBuildItem> producer) {
-        producer.produce(new DatabaseKindDialectBuildItem("sqllite", SQLiteDataSource.class.getName()));
+        producer.produce(new DatabaseKindDialectBuildItem("sqlite", SQLiteDataSource.class.getName()));
         //recorder.recordSqlliteDialect(producer);
         //cfg.dialect
         //io.quarkus.hibernate.orm.deployment.HibernateOrmProcessor

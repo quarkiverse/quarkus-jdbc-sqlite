@@ -24,6 +24,11 @@
       <artifactId>sqlite-jdbc</artifactId>
       <version>${sqlite-jdbc.version}</version>
     </dependency>
+    <dependency>
+      <groupId>com.github.gwenn</groupId>
+      <artifactId>sqlite-dialect</artifactId>
+      <version>${sqlite-dialect.version}</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>

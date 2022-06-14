@@ -31,6 +31,18 @@
       <version>${project.version}</version>
     </dependency>
     <dependency>
+      <groupId>com.github.gwenn</groupId>
+      <artifactId>sqlite-dialect</artifactId>
+      <version>0.1.2</version>
+    </dependency>
+
+<!--    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-community-dialects</artifactId>
+      <version>6.1.0.Final</version>
+    </dependency>-->
+
+    <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-junit5-internal</artifactId>
       <scope>test</scope>

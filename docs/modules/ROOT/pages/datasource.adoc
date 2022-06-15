@@ -1,0 +1,20 @@
+=== Sqlite
+
+Sqlite only runs as embedded database.
+
+As such, you must specify connection details, or use the defaults.
+
+`jdbc:sqlite:[path]/[name][?key=value...]`
+
+Example:: `jdbc:sqlite:/home/user/mydatabase.db`
+
+
+SQLite supports on-memory database management, which does not create any database files. To use a memory database in your Java code, get the database connection as follows:
+
+
+`jdbc:sqlite::memory:`
+
+
+The https://www.sqlite.org/uri.html[official documentation] or https://www.sqlite.org/c3ref/open.html#urifilenameexamples[URI Examples] go into more detail and list optional parameters as well.
+
+:no-duration-note: true

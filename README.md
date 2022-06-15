@@ -6,13 +6,12 @@
 [![Maven Central](https://img.shields.io/maven-central/v/io.quarkiverse.jdbc/quarkus-jdbc-sqlite.svg?label=Maven%20Central)](https://search.maven.org/artifact/io.quarkiverse.jdbc/quarkus-jdbc-sqlite)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-JDBC Sqlite is a Quarkus extension to Sqlite Embedded database
+Quarkus JDBC Sqlite is a Quarkus extension for the Sqlite Embedded database.
 
 
-## User Doc
+## User Documentation
 
-https://quarkiverse.github.io/quarkiverse-docs/quarkus-JDBC-Sqlite/dev/index.html
-
+https://quarkiverse.github.io/quarkiverse-docs/quarkus-jdbc-sqlite/dev/index.html
 
 ## Contributors ✨
 

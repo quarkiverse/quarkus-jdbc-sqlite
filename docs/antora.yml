@@ -1,4 +1,4 @@
-name: quarkus-JDBC-Sqlite
+name: quarkus-jdbc-sqlite
 title: Quarkus JDBC Sqlite
 version: dev
 nav:

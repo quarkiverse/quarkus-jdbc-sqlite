@@ -99,7 +99,8 @@ public class JPAFunctionalityTestEndpoint extends HttpServlet {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
         transaction.begin();
-        em.createNativeQuery("Delete from myschema.Person").executeUpdate();
+        //em.createNativeQuery("Delete from myschema.Person").executeUpdate();
+        em.createNativeQuery("Delete from Person").executeUpdate();
         transaction.commit();
         em.close();
     }

@@ -19,7 +19,8 @@ public class SequencedAddress {
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "addressSeq")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "addressSeq")
     public long getId() {
         return id;
     }

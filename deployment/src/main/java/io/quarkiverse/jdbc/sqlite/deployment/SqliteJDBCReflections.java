@@ -13,6 +13,7 @@ import io.quarkus.deployment.builditem.nativeimage.ReflectiveClassBuildItem;
  * @author Alexey Sharandin <sanders@yandex.ru>
  */
 
+@SuppressWarnings("unused")
 public class SqliteJDBCReflections {
     @BuildStep
     void build(BuildProducer<ReflectiveClassBuildItem> reflectiveClass) {

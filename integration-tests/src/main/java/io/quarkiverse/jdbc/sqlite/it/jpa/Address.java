@@ -10,6 +10,7 @@ import javax.persistence.Embeddable;
  */
 //FIXME : this used to be non-annotated explicitly for testing purposes
 // added the annotation as it's illegal according to the ORM metadata validation
+@SuppressWarnings("unused")
 @Embeddable
 public class Address {
     private String street1;

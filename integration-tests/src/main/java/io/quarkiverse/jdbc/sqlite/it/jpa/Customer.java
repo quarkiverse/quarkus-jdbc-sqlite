@@ -9,6 +9,7 @@ import javax.persistence.Id;
  *
  * @author Emmanuel Bernard emmanuel@hibernate.org
  */
+@SuppressWarnings("unused")
 @Entity
 public class Customer extends Human {
     @Id

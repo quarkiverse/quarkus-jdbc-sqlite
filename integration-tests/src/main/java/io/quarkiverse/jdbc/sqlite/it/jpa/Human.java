@@ -7,6 +7,7 @@ import javax.persistence.MappedSuperclass;
  *
  * @author Emmanuel Bernard emmanuel@hibernate.org
  */
+@SuppressWarnings("unused")
 @MappedSuperclass
 public class Human extends Animal {
     private String name;

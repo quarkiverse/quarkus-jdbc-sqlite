@@ -7,6 +7,7 @@ import javax.persistence.Embeddable;
  *
  * @author Emmanuel Bernard emmanuel@hibernate.org
  */
+@SuppressWarnings("unused")
 @Embeddable
 public class WorkAddress {
     private String company;

@@ -63,11 +63,11 @@ public class JDBCSqliteResource {
         try (Statement statement = connection.createStatement()) {
             statement.setQueryTimeout(30); // set timeout to 30 sec.
 
-            statement.executeUpdate("drop table if exists person");
-            statement.executeUpdate("create table person (id integer, name string)");
-            statement.executeUpdate("insert into person values(1, 'leo')");
-            statement.executeUpdate("insert into person values(2, 'yui')");
-            try (ResultSet rs = statement.executeQuery("select * from person")) {
+            statement.executeUpdate("drop table if exists xperson");
+            statement.executeUpdate("create table xperson (id integer, name string)");
+            statement.executeUpdate("insert into xperson values(1, 'leo')");
+            statement.executeUpdate("insert into xperson values(2, 'yui')");
+            try (ResultSet rs = statement.executeQuery("select * from xperson")) {
                 while (rs.next()) {
                     result.append(rs.getInt("id")).append("/").append(rs.getString("name")).append("/");
                 }

@@ -5,6 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+@SuppressWarnings("unused")
 @Entity
 public class SequencedAddress {
 
@@ -19,8 +20,7 @@ public class SequencedAddress {
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    //@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "addressSeq")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "addressSeq")
     public long getId() {
         return id;
     }

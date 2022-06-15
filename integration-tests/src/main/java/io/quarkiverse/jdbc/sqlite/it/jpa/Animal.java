@@ -3,6 +3,7 @@ package io.quarkiverse.jdbc.sqlite.it.jpa;
 /**
  * @author Emmanuel Bernard emmanuel@hibernate.org
  */
+@SuppressWarnings("unused")
 public class Animal {
     private double weight;
 

@@ -10,8 +10,9 @@ import javax.persistence.ManyToOne;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
+@SuppressWarnings("unused")
 @Entity
-@Table /* (schema = "myschema") */
+@Table /* (schema = "myschema") */ // Schemas not supported by sqllite driver
 @NamedQuery(name = "get_person_by_name", query = "select p from Person p where name = :name")
 public class Person {
 
@@ -30,8 +31,7 @@ public class Person {
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    //@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "personSeq")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "personSeq")
     public long getId() {
         return id;
     }

@@ -24,7 +24,7 @@ import io.quarkus.deployment.builditem.SslNativeConfigBuildItem;
 @SuppressWarnings("unused")
 class JDBCSqliteProcessor {
 
-    private static final String FEATURE = "JDBC-Sqlite";
+    private static final String FEATURE = "jdbc-sqlite";
 
     static final String DRIVER_NAME = JDBC.class.getName();
     private static final String DATA_SOURCE_NAME = SQLiteDataSource.class.getName();

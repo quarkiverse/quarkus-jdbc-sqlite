@@ -7,7 +7,7 @@
     <version>1.0.2-SNAPSHOT</version>
   </parent>
   <artifactId>quarkus-jdbc-sqlite-integration-tests</artifactId>
-  <name>Quarkus - JDBC Sqlite - Integration Tests</name>
+  <name>Quarkus - JDBC SQLite - Integration Tests</name>
   <dependencies>
     <dependency>
       <groupId>io.quarkus</groupId>

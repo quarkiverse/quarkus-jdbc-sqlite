@@ -7,7 +7,7 @@
     <version>1.0.2-SNAPSHOT</version>
   </parent>
   <artifactId>quarkus-jdbc-sqlite-deployment</artifactId>
-  <name>Quarkus - JDBC Sqlite - Deployment</name>
+  <name>Quarkus - JDBC SQLite - Deployment</name>
   <dependencies>
     <dependency>
       <groupId>io.quarkus</groupId>

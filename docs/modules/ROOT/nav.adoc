@@ -1,1 +1,2 @@
-* xref:index.adoc[Quarkus - JDBC Sqlite]
+* xref:index.adoc[Introduction]
+* xref:datasource.adoc[Configuring the datasource]

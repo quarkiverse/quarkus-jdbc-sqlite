@@ -8,7 +8,7 @@
   </parent>
   <groupId>io.quarkiverse.jdbc</groupId>
   <artifactId>quarkus-jdbc-sqlite-parent</artifactId>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>1.0.2</version>
   <packaging>pom</packaging>
   <name>Quarkus - JDBC SQLite - Parent</name>
   <modules>
@@ -70,4 +70,8 @@
       </modules>
     </profile>
   </profiles>
+
+  <scm>
+    <tag>1.0.2</tag>
+  </scm>
 </project>

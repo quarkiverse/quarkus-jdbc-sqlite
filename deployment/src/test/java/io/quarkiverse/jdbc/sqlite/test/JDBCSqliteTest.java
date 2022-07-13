@@ -7,7 +7,7 @@ public class JDBCSqliteTest {
      * @RegisterExtension
      * static final QuarkusUnitTest unitTest = new QuarkusUnitTest()
      * .setArchiveProducer(() -> ShrinkWrap.create(JavaArchive.class));
-     * 
+     *
      * @Test
      * public void writeYourOwnUnitTest() {
      * // Write your unit tests here - see the testing extension guide

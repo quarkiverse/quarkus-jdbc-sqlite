@@ -8,6 +8,7 @@
   </parent>
   <artifactId>quarkus-jdbc-sqlite</artifactId>
   <name>Quarkus - JDBC SQLite - Runtime</name>
+  <description>Connect to the SQLite database via JDBC</description>
   <dependencies>
     <dependency>
       <groupId>io.quarkus</groupId>

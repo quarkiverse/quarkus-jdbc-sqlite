@@ -22,7 +22,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <quarkus.version>2.14.1.Final</quarkus.version>
-    <sqlite-jdbc.version>3.39.4.1</sqlite-jdbc.version>
+    <sqlite-jdbc.version>3.40.0.0</sqlite-jdbc.version>
     <sqlite-dialect.version>0.1.2</sqlite-dialect.version>
   </properties>
   <dependencyManagement>

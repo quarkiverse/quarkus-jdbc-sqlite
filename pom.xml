@@ -21,7 +21,7 @@
     <maven.compiler.release>11</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <quarkus.version>2.14.2.Final</quarkus.version>
+    <quarkus.version>2.14.3.Final</quarkus.version>
     <sqlite-jdbc.version>3.39.4.1</sqlite-jdbc.version>
     <sqlite-dialect.version>0.1.2</sqlite-dialect.version>
   </properties>

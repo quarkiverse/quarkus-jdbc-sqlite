@@ -3,7 +3,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-[![Build](<https://img.shields.io/github/workflow/status/quarkiverse/quarkus-jdbc-sqlite/Build?logo=GitHub&style=flat-square>)](https://github.com/quarkiverse/quarkus-jdbc-sqlite/actions?query=workflow%3ABuild)
+[![Build](https://github.com/quarkiverse/quarkus-jdbc-sqlite/workflows/Build/badge.svg)](https://github.com/quarkiverse/quarkus-jdbc-sqlite/actions?query=workflow%3ABuild)
 [![Maven Central](https://img.shields.io/maven-central/v/io.quarkiverse.jdbc/quarkus-jdbc-sqlite.svg?label=Maven%20Central&style=flat-square)](https://search.maven.org/artifact/io.quarkiverse.jdbc/quarkus-jdbc-sqlite)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square)](https://opensource.org/licenses/Apache-2.0)
 

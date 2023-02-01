@@ -8,5 +8,5 @@ metadata:
     - "sqlite"
   categories:
     - "data"
-  status: "preview"
+  status: "stable"
   description: "Connect to the Sqlite database via JDBC/DataSource/Hibernate"

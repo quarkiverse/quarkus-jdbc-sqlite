@@ -29,6 +29,12 @@
       <groupId>com.github.gwenn</groupId>
       <artifactId>sqlite-dialect</artifactId>
       <version>${sqlite-dialect.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.hibernate</groupId>
+          <artifactId>hibernate-core</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
   </dependencies>
   <build>

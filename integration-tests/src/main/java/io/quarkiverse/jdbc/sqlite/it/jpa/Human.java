@@ -1,6 +1,6 @@
 package io.quarkiverse.jdbc.sqlite.it.jpa;
 
-import javax.persistence.MappedSuperclass;
+import jakarta.persistence.MappedSuperclass;
 
 /**
  * Mapped superclass test

@@ -1,6 +1,6 @@
 package io.quarkiverse.jdbc.sqlite.it.jpa;
 
-import javax.persistence.Embeddable;
+import jakarta.persistence.Embeddable;
 
 /**
  * This is an enmarked @Embeddable class.

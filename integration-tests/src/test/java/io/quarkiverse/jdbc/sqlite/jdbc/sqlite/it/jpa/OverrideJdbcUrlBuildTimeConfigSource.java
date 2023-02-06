@@ -2,7 +2,7 @@ package io.quarkiverse.jdbc.sqlite.jdbc.sqlite.it.jpa;
 
 import java.util.HashMap;
 
-import javax.annotation.Priority;
+import jakarta.annotation.Priority;
 
 import org.eclipse.microprofile.config.ConfigProvider;
 import org.eclipse.microprofile.config.spi.ConfigSource;

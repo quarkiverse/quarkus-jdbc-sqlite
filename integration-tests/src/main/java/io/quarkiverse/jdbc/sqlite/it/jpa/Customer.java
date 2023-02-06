@@ -1,8 +1,8 @@
 package io.quarkiverse.jdbc.sqlite.it.jpa;
 
-import javax.persistence.Embedded;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import jakarta.persistence.Embedded;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 /**
  * Used to test reflection references for JPA

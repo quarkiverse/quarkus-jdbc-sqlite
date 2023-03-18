@@ -1,13 +1,11 @@
 package io.quarkiverse.jdbc.sqlite.deployment;
 
-import org.sqlite.hibernate.dialect.SQLiteDialect;
+import org.hibernate.community.dialect.SQLiteDialect;
 
 import io.quarkus.deployment.annotations.BuildProducer;
 import io.quarkus.deployment.annotations.BuildStep;
 import io.quarkus.hibernate.orm.deployment.spi.DatabaseKindDialectBuildItem;
 
-//https://github.com/gwenn/sqlite-dialect/
-@SuppressWarnings("unused")
 public class SqliteHibernateProcessor {
 
     @BuildStep

@@ -28,9 +28,9 @@ import io.agroal.api.AgroalDataSource;
 /**
  * Basic integration test for quarkus-jdbc-sqlite
  *
- * @author Alexey Sharandin <sanders@yandex.ru>
  */
 
+@SuppressWarnings("unused")
 @Path("/JDBC-Sqlite")
 @ApplicationScoped
 public class JDBCSqliteResource {

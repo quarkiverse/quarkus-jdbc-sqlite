@@ -19,7 +19,6 @@ import io.quarkus.deployment.builditem.SslNativeConfigBuildItem;
 /**
  * Deploy extention to Quarkus framework
  *
- * @author Alexey Sharandin <sanders@yandex.ru>
  */
 @SuppressWarnings("unused")
 class JDBCSqliteProcessor {

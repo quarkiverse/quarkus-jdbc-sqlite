@@ -6,7 +6,7 @@ import io.quarkus.agroal.runtime.AgroalConnectionConfigurer;
 /**
  * Emply Agoral configurer
  *
-*/
+ */
 public class SqliteAgroalConnectionConfigurer implements AgroalConnectionConfigurer {
 
     @Override

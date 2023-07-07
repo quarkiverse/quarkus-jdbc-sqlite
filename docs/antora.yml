@@ -1,5 +1,5 @@
 name: quarkus-jdbc-sqlite
-title: Quarkus JDBC Sqlite
+title: JDBC Sqlite
 version: dev
 nav:
   - modules/ROOT/nav.adoc

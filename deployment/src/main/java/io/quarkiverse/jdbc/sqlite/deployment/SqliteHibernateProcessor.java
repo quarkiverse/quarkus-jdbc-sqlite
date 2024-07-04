@@ -1,5 +1,6 @@
 package io.quarkiverse.jdbc.sqlite.deployment;
 
+import io.quarkiverse.jdbc.sqlite.runtime.SQLiteConstants;
 import org.hibernate.community.dialect.SQLiteDialect;
 
 import io.quarkus.deployment.annotations.BuildProducer;
@@ -11,6 +12,6 @@ public class SqliteHibernateProcessor {
     @BuildStep
     void processHibernate(
             BuildProducer<DatabaseKindDialectBuildItem> producer) {
-        producer.produce(new DatabaseKindDialectBuildItem("sqlite", SQLiteDialect.class.getName()));
+        producer.produce(new DatabaseKindDialectBuildItem(SQLiteConstants.DB_KIND, SQLiteDialect.class.getName()));
     }
 }

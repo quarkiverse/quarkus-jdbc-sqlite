@@ -2,11 +2,13 @@ package io.quarkiverse.jdbc.sqlite.runtime;
 
 import io.agroal.api.configuration.supplier.AgroalDataSourceConfigurationSupplier;
 import io.quarkus.agroal.runtime.AgroalConnectionConfigurer;
+import io.quarkus.agroal.runtime.JdbcDriver;
 
 /**
  * Emply Agoral configurer
  *
  */
+@JdbcDriver(SQLiteConstants.DB_KIND)
 public class SqliteAgroalConnectionConfigurer implements AgroalConnectionConfigurer {
 
     @Override

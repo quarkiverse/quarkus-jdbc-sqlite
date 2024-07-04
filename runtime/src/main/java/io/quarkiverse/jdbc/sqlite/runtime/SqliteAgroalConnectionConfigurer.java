@@ -5,7 +5,7 @@ import io.quarkus.agroal.runtime.AgroalConnectionConfigurer;
 import io.quarkus.agroal.runtime.JdbcDriver;
 
 /**
- * Emply Agoral configurer
+ * Empty Agroal configurer
  *
  */
 @JdbcDriver(SQLiteConstants.DB_KIND)
@@ -13,12 +13,12 @@ public class SqliteAgroalConnectionConfigurer implements AgroalConnectionConfigu
 
     @Override
     public void disableSslSupport(String databaseKind, AgroalDataSourceConfigurationSupplier dataSourceConfiguration) {
-        // do not log anything for H2
+        // do not log anything for SQLite
     }
 
     @Override
     public void setExceptionSorter(String databaseKind, AgroalDataSourceConfigurationSupplier dataSourceConfiguration) {
-        // Do not log a warning: we don't have an exception sorter for H2,
+        // Do not log a warning: we don't have an exception sorter for SQLite,
         // but there is nothing the user can do about it.
     }
 }

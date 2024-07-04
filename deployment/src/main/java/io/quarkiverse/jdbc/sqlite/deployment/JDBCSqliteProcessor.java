@@ -19,7 +19,7 @@ import io.quarkus.deployment.builditem.FeatureBuildItem;
 import io.quarkus.deployment.builditem.SslNativeConfigBuildItem;
 
 /**
- * Deploy extention to Quarkus framework
+ * Deploy extension to Quarkus framework
  *
  */
 @SuppressWarnings("unused")

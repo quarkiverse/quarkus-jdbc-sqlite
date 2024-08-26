@@ -1,5 +1,7 @@
 package io.quarkiverse.jdbc.sqlite.deployment;
 
+import static io.quarkiverse.jdbc.sqlite.runtime.SQLiteConstants.DB_KIND;
+
 import org.sqlite.JDBC;
 import org.sqlite.SQLiteDataSource;
 
@@ -17,7 +19,7 @@ import io.quarkus.deployment.builditem.FeatureBuildItem;
 import io.quarkus.deployment.builditem.SslNativeConfigBuildItem;
 
 /**
- * Deploy extention to Quarkus framework
+ * Deploy extension to Quarkus framework
  *
  */
 @SuppressWarnings("unused")
@@ -27,7 +29,6 @@ class JDBCSqliteProcessor {
 
     static final String DRIVER_NAME = JDBC.class.getName();
     private static final String DATA_SOURCE_NAME = SQLiteDataSource.class.getName();
-    private static final String DB_KIND = "sqlite";
 
     @BuildStep
     FeatureBuildItem feature() {

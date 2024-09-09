@@ -1,8 +1,8 @@
 package io.quarkiverse.jdbc.sqlite.deployment;
 
-import io.quarkiverse.jdbc.sqlite.runtime.SQLiteConstants;
 import org.hibernate.community.dialect.SQLiteDialect;
 
+import io.quarkiverse.jdbc.sqlite.runtime.SQLiteConstants;
 import io.quarkus.deployment.annotations.BuildProducer;
 import io.quarkus.deployment.annotations.BuildStep;
 import io.quarkus.hibernate.orm.deployment.spi.DatabaseKindDialectBuildItem;

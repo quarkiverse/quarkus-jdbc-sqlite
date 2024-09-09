@@ -12,7 +12,6 @@ public class SqliteHibernateProcessor {
     @BuildStep
     void processHibernate(
             BuildProducer<DatabaseKindDialectBuildItem> producer) {
-        producer.produce(
-                DatabaseKindDialectBuildItem.forThirdPartyDialect(SQLiteConstants.DB_KIND, SQLiteDialect.class.getName()));
+        producer.produce(DatabaseKindDialectBuildItem.forThirdPartyDialect(SQLiteConstants.DB_KIND, SQLiteDialect.class.getName()));
     }
 }

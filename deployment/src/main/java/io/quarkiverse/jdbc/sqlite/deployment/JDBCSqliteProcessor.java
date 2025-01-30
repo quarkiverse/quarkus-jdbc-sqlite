@@ -2,8 +2,8 @@ package io.quarkiverse.jdbc.sqlite.deployment;
 
 import static io.quarkiverse.jdbc.sqlite.runtime.SQLiteConstants.DB_KIND;
 
-import org.sqlite.JDBC;
-import org.sqlite.SQLiteDataSource;
+import com.github.andreaTP.sqlite.wasm.JDBC;
+import com.github.andreaTP.sqlite.wasm.SQLiteDataSource;
 
 import io.quarkiverse.jdbc.sqlite.runtime.SqliteAgroalConnectionConfigurer;
 import io.quarkus.agroal.spi.JdbcDriverBuildItem;

@@ -9,6 +9,12 @@
   <artifactId>quarkus-jdbc-sqlite</artifactId>
   <name>Quarkus - JDBC SQLite - Runtime</name>
   <description>Connect to the SQLite database via JDBC</description>
+  <repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
   <dependencies>
     <dependency>
       <groupId>io.quarkus</groupId>
@@ -20,9 +26,14 @@
       <optional>true</optional>
     </dependency>
     <dependency>
-      <!-- https://github.com/xerial/sqlite-jdbc -->
-      <groupId>org.xerial</groupId>
-      <artifactId>sqlite-jdbc</artifactId>
+      <groupId>org.graalvm.sdk</groupId>
+      <artifactId>nativeimage</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <!-- https://github.com/andreaTP/sqlite-jdbc-wasm -->
+      <groupId>com.github.andreaTP</groupId>
+      <artifactId>sqlite-jdbc-wasm</artifactId>
       <version>${sqlite-jdbc.version}</version>
     </dependency>
     <dependency>

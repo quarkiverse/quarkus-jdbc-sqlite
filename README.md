@@ -1,35 +1,20 @@
-# Quarkus JDBC SQLite extension
+# Quarkus SQLite4j extension
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-[![Build](https://github.com/quarkiverse/quarkus-jdbc-sqlite/workflows/Build/badge.svg)](https://github.com/quarkiverse/quarkus-jdbc-sqlite/actions?query=workflow%3ABuild)
-[![Maven Central](https://img.shields.io/maven-central/v/io.quarkiverse.jdbc/quarkus-jdbc-sqlite.svg?label=Maven%20Central&style=flat-square)](https://search.maven.org/artifact/io.quarkiverse.jdbc/quarkus-jdbc-sqlite)
+[![Build](https://github.com/quarkiverse/quarkus-sqlite4j/workflows/Build/badge.svg)](https://github.com/quarkiverse/quarkus-sqlite4j/actions?query=workflow%3ABuild)
+[![Maven Central](https://img.shields.io/maven-central/v/io.quarkiverse.jdbc/quarkus-sqlite4j.svg?label=Maven%20Central&style=flat-square)](https://search.maven.org/artifact/io.quarkiverse.jdbc/quarkus-sqlite4j)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square)](https://opensource.org/licenses/Apache-2.0)
 
-Quarkus JDBC SQLite is a Quarkus extension for the SQLite Embedded database.
+Quarkus SQLite4j is a Quarkus extension for the SQLite Embedded database.
 
+This project has been forked from the original [quarkus-jdbc-sqlite](https://github.com/quarkiverse/quarkus-jdbc-sqlite).
+The key difference is in how SQLite is bundled/executed:
+
+- `quarkus-jdbc-sqlite` builds on top of the stable [xerial/sqlite-jdbc](https://github.com/xerial/sqlite-jdbc/) driver that bundle several builds of SQLite for a lot of different architectures and uses JNI to access the functionality
+- `quarkus-sqlite4j` builds on top of the fork [roastedroot/sqlite4j](https://github.com/roastedroot/sqlite4j) which instead compiles SQLite to pure Java bytecode thanks to [Chicory](https://github.com/dylibso/chicory) and directly interacts with it
 
 ## User Documentation
 
-https://docs.quarkiverse.io/quarkus-jdbc-sqlite/dev/index.html
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/sharandin/"><img src="https://avatars.githubusercontent.com/u/41162858?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alexey Sharandin</b></sub></a><br /><a href="https://github.com/quarkiverse/quarkus-jdbc-sqlite/commits?author=alexeysharandin" title="Code">💻</a> <a href="#maintenance-alexeysharandin" title="Maintenance">🚧</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+https://docs.quarkiverse.io/quarkus-sqlite4j/dev/index.html

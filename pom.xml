@@ -7,23 +7,23 @@
     <version>18</version>
   </parent>
   <groupId>io.quarkiverse.jdbc</groupId>
-  <artifactId>quarkus-jdbc-sqlite-parent</artifactId>
+  <artifactId>quarkus-sqlite4j-parent</artifactId>
   <version>999-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>Quarkus - JDBC SQLite - Parent</name>
+  <name>Quarkus - SQLite4j - Parent</name>
   <modules>
     <module>deployment</module>
     <module>runtime</module>
   </modules>
   <scm>
-    <connection>scm:git:git@github.com:quarkiverse/quarkus-jdbc-sqlite.git</connection>
-    <developerConnection>scm:git:git@github.com:quarkiverse/quarkus-jdbc-sqlite.git</developerConnection>
-    <url>https://github.com/quarkiverse/quarkus-jdbc-sqlite</url>
+    <connection>scm:git:git@github.com:quarkiverse/quarkus-sqlite4j.git</connection>
+    <developerConnection>scm:git:git@github.com:quarkiverse/quarkus-sqlite4j.git</developerConnection>
+    <url>https://github.com/quarkiverse/quarkus-sqlite4j</url>
     <tag>HEAD</tag>
   </scm>
   <properties>
     <quarkus.version>3.17.0</quarkus.version>
-    <sqlite-jdbc.version>main-SNAPSHOT</sqlite-jdbc.version>
+    <sqlite4j.version>3.48.0.0</sqlite4j.version>
     <icu4j.version>76.1</icu4j.version>
   </properties>
   <dependencyManagement>

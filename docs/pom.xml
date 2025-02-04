@@ -3,19 +3,19 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>io.quarkiverse.jdbc</groupId>
-    <artifactId>quarkus-jdbc-sqlite-parent</artifactId>
+    <artifactId>quarkus-sqlite4j-parent</artifactId>
     <version>999-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>quarkus-jdbc-sqlite-docs</artifactId>
-  <name>Quarkus - JDBC SQLite - Documentation</name>
+  <artifactId>quarkus-sqlite4j-docs</artifactId>
+  <name>Quarkus - SQLite4j - Documentation</name>
 
   <dependencies>
     <!-- Make sure the doc is built after the other artifacts -->
     <dependency>
       <groupId>io.quarkiverse.jdbc</groupId>
-      <artifactId>quarkus-jdbc-sqlite-deployment</artifactId>
+      <artifactId>quarkus-sqlite4j-deployment</artifactId>
       <version>${project.version}</version>
     </dependency>
   </dependencies>

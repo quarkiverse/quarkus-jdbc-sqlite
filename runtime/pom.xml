@@ -3,18 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>io.quarkiverse.jdbc</groupId>
-    <artifactId>quarkus-jdbc-sqlite-parent</artifactId>
+    <artifactId>quarkus-sqlite4j-parent</artifactId>
     <version>999-SNAPSHOT</version>
   </parent>
-  <artifactId>quarkus-jdbc-sqlite</artifactId>
-  <name>Quarkus - JDBC SQLite - Runtime</name>
+  <artifactId>quarkus-sqlite4j</artifactId>
+  <name>Quarkus - SQLite4j - Runtime</name>
   <description>Connect to the SQLite database via JDBC</description>
-  <repositories>
-    <repository>
-      <id>jitpack.io</id>
-      <url>https://jitpack.io</url>
-    </repository>
-  </repositories>
   <dependencies>
     <dependency>
       <groupId>io.quarkus</groupId>
@@ -31,10 +25,10 @@
       <version>${icu4j.version}</version>
     </dependency>
     <dependency>
-      <!-- https://github.com/andreaTP/sqlite-jdbc-wasm -->
-      <groupId>com.github.andreaTP</groupId>
-      <artifactId>sqlite-jdbc-wasm</artifactId>
-      <version>${sqlite-jdbc.version}</version>
+      <!-- https://github.com/roastedroot/sqlite4j -->
+      <groupId>io.roastedroot</groupId>
+      <artifactId>sqlite4j</artifactId>
+      <version>${sqlite4j.version}</version>
     </dependency>
     <dependency>
       <groupId>org.hibernate.orm</groupId>

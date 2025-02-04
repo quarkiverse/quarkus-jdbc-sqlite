@@ -1,11 +1,11 @@
 = Quarkus JDBC Sqlite
 :extension-status: preview
 
-Quarkus JDBC SQLite is a Quarkus extention for the https://www.sqlite.org/[SQLite database].
+Quarkus SQLite4j is a Quarkus extention for the https://www.sqlite.org/[SQLite database].
 
 == Installation
 
-If you want to use this extension, you need to add the `io.quarkiverse.jdbc:quarkus-jdbc-sqlite` extension first.
+If you want to use this extension, you need to add the `io.quarkiverse.jdbc:quarkus-sqlite4j` extension first.
 
 For instance, in your `pom.xml` file, add the following dependency:
 
@@ -13,7 +13,7 @@ For instance, in your `pom.xml` file, add the following dependency:
 ----
 <dependency>
     <groupId>io.quarkiverse.jdbc</groupId>
-    <artifactId>quarkus-jdbc-sqlite</artifactId>
+    <artifactId>quarkus-sqlite4j</artifactId>
 </dependency>
 ----
 

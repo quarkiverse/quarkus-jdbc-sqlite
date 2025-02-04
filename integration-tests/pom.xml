@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>io.quarkiverse.jdbc</groupId>
-    <artifactId>quarkus-jdbc-sqlite-parent</artifactId>
+    <artifactId>quarkus-sqlite4j-parent</artifactId>
     <version>999-SNAPSHOT</version>
   </parent>
-  <artifactId>quarkus-jdbc-sqlite-integration-tests</artifactId>
-  <name>Quarkus - JDBC SQLite - Integration Tests</name>
+  <artifactId>quarkus-sqlite4j-integration-tests</artifactId>
+  <name>Quarkus - SQLite4j - Integration Tests</name>
   <dependencies>
     <dependency>
       <groupId>io.quarkus</groupId>
@@ -15,7 +15,7 @@
     </dependency>
     <dependency>
       <groupId>io.quarkiverse.jdbc</groupId>
-      <artifactId>quarkus-jdbc-sqlite</artifactId>
+      <artifactId>quarkus-sqlite4j</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>

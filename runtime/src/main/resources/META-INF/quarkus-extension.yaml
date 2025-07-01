@@ -8,5 +8,6 @@ metadata:
     - "sqlite"
   categories:
     - "data"
+  icon-url: "https://www.vectorlogo.zone/logos/sqlite/sqlite-ar21.svg"
   status: "stable"
   description: "Connect to the Sqlite database via JDBC/DataSource/Hibernate"

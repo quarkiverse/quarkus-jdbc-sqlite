@@ -10,13 +10,13 @@ import io.quarkus.agroal.spi.JdbcDriverBuildItem;
 import io.quarkus.arc.deployment.AdditionalBeanBuildItem;
 import io.quarkus.arc.processor.BuiltinScope;
 import io.quarkus.datasource.deployment.spi.DefaultDataSourceDbKindBuildItem;
-import io.quarkus.datasource.deployment.spi.DevServicesDatasourceConfigurationHandlerBuildItem;
 import io.quarkus.deployment.Capabilities;
 import io.quarkus.deployment.Capability;
 import io.quarkus.deployment.annotations.BuildProducer;
 import io.quarkus.deployment.annotations.BuildStep;
 import io.quarkus.deployment.builditem.FeatureBuildItem;
 import io.quarkus.deployment.builditem.SslNativeConfigBuildItem;
+import io.quarkus.devservices.datasource.common.DevServicesDatasourceConfigurationHandlerBuildItem;
 
 /**
  * Deploy extension to Quarkus framework
